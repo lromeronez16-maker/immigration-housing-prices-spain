@@ -42,15 +42,15 @@ Theory, transmission mechanisms and offsetting effects: [`docs/methodology.md`](
 
 ## Data
 
-| Concept | Variable | Source | Level | In this version |
-|---|---|---|---|---|
-| Housing price | Average appraised value of free-market housing (€/m², nominal); dependent variable: 100·Δln price | MIVAU (VDP006_01) | Province, quarterly → annual | ✅ Used |
-| Foreign-born population | Stock on 1 January → % of total population, net inflow (% of previous-year population) and change in share (pp) | INE, Municipal Register (table 03006) | Province, annual | ✅ Used |
-| Foreign nationals (by nationality) | Stock on 1 January → % foreign nationals, net inflow and nationality shares for the instrument | INE, Municipal Register (table 03005) | Province, annual | ✅ Used |
-| GDP, population, age structure, area | GDP at current prices (€m) → ln GDP per capita and its growth; % of population aged 25-34; ln density (inhabitants/km²) | Eurostat (`nama_10r_3gdp`, `demo_r_pjangrp3`, `demo_r_d3area`) | NUTS-3 → province, annual | ⏳ Pending |
-| Unemployment rate | % of labour force aged 15-74 and its change (pp) | Eurostat, Labour Force Survey (`lfst_r_lfu3rt`) | Region (CCAA), annual | ⏳ Pending |
-| 10-year interest rate | 10-year government bond yield (%, annual average) | Eurostat (`irt_lt_mcby_a`) | Spain, annual | ⏳ Pending (OLS only; absorbed by year FE in the panel) |
-| Completed dwellings | Completed free-market dwellings per 1,000 inhabitants, lagged one year (t−1) | MIVAU | Province, annual | ⏳ Pending |
+| Concept | Variable | Source | Level |
+|---|---|---|---|
+| Housing price | Appraised value of free-market housing (€/m²) | MIVAU (Ministry of Housing) | Province, quarterly |
+| Foreign-born population | Stock on 1 January | INE, Municipal Register (Padrón) | Province |
+| Foreign nationals (by nationality) | Stock on 1 January | INE, Municipal Register (Padrón) | Province |
+| GDP, population, age structure, area | GDP per capita, % population aged 25-34, density (inhabitants/km²) | Eurostat | NUTS-3 → province |
+| Unemployment rate | % of labour force aged 15-74 | Eurostat (Labour Force Survey) | Region (CCAA) |
+| 10-year interest rate | 10-year government bond yield (%) | Eurostat | Spain |
+| Completed dwellings | Completed free-market dwellings per 1,000 inhabitants | MIVAU | Province |
 
 The project explicitly distinguishes between the **foreign-born population** (country of birth), **foreign nationals** (citizenship) and **net flows**; they are not treated as equivalent. Sources, download paths and unavailable data are documented in [`docs/data_sources.md`](docs/data_sources.md) (in Spanish).
 

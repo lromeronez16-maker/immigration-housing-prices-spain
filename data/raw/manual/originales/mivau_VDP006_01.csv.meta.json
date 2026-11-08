@@ -1,0 +1,11 @@
+{
+  "fichero": "mivau_VDP006_01.csv",
+  "organismo": "MIVAU",
+  "tabla": "VDP006_01",
+  "descripcion": "Valor tasado medio de vivienda libre y protegida (€/m²), trimestral por provincias, 1995T1-2026",
+  "referencia": "Ministerio de Vivienda y Agenda Urbana, estadística de valor tasado de vivienda",
+  "aportado_por_usuario": "2026-11-08",
+  "bytes": 688965,
+  "sha256": "21af4264fd80d617857885032a9a3164c19935dfb18afacf3d9b08647ba68a0b",
+  "lineas": 13712
+}

@@ -1,0 +1,11 @@
+{
+  "fichero": "ine_03005_nacionalidad.csv",
+  "organismo": "INE",
+  "tabla": "03005",
+  "descripcion": "Población extranjera por nacionalidad, provincias y sexo. Estadística del Padrón Continuo, 1/1/1998-1/1/2022",
+  "referencia": "https://www.ine.es/jaxi/Tabla.htm?tpx=03005",
+  "aportado_por_usuario": "2026-11-08",
+  "bytes": 22767381,
+  "sha256": "2be082399280391543d403d719c0ddb25d207ba30b6ee8aea06527152ecfdb81",
+  "lineas": 544576
+}

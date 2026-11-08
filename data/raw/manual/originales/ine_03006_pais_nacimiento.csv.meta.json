@@ -1,0 +1,11 @@
+{
+  "fichero": "ine_03006_pais_nacimiento.csv",
+  "organismo": "INE",
+  "tabla": "03006",
+  "descripcion": "Población por provincias, país de nacimiento, español/extranjero y sexo. Estadística del Padrón Continuo, 1/1/1998-1/1/2022",
+  "referencia": "https://www.ine.es/jaxi/Tabla.htm?tpx=03006",
+  "aportado_por_usuario": "2026-11-08",
+  "bytes": 95816998,
+  "sha256": "1153b5e41d37c9a933f8501ee92602aadbf16053c1572f2ae87e7d42e8a2cd3f",
+  "lineas": 1586026
+}

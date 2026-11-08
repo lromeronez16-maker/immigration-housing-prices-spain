@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+# Resultados del modo demo (datos sintéticos): nunca se versionan
+results/_demo/
+# Datos descargados: se regeneran con el pipeline (se versionan solo los .meta.json)
+data/raw/eurostat/*.csv
+data/raw/ine/*.json
+!data/raw/ine/*.meta.json
+# Originales del INE demasiado grandes para GitHub (95 MB / 22 MB): se versiona su .meta.json con SHA-256
+data/raw/manual/originales/ine_03006_pais_nacimiento.csv
+data/raw/manual/originales/ine_03005_nacionalidad.csv

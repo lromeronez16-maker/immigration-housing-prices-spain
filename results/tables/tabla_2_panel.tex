@@ -1,0 +1,23 @@
+\begin{tabular}{lllllll}
+\toprule
+ & (1) EF provincia & (2) EF provincia + año (principal) & (3) Flujo retardado (t-1) & (4) Δ proporción nacidos ext. (p.p.) & (5) Niveles EF provincia + año & (6) Retardos distribuidos (0-2) \\
+\midrule
+flujo\_nacidos\_ext & 6.0933*** & 1.2012*** &  &  &  & 1.1202*** \\
+flujo\_nacidos\_ext (ee) & (0.4034) & (0.2588) &  &  &  & (0.2611) \\
+flujo\_nacidos\_ext\_l1 &  &  & 0.7766*** &  &  & 0.4468** \\
+flujo\_nacidos\_ext\_l1 (ee) &  &  & (0.2393) &  &  & (0.1893) \\
+d\_pct\_nacidos\_ext &  &  &  & 1.5475*** &  &  \\
+d\_pct\_nacidos\_ext (ee) &  &  &  & (0.3034) &  &  \\
+pct\_nacidos\_ext &  &  &  &  & 0.0088* &  \\
+pct\_nacidos\_ext (ee) &  &  &  &  & (0.0045) &  \\
+flujo\_nacidos\_ext\_l2 &  &  &  &  &  & -0.4224* \\
+flujo\_nacidos\_ext\_l2 (ee) &  &  &  &  &  & (0.2275) \\
+Variable dependiente & dln\_precio & dln\_precio & dln\_precio & dln\_precio & ln\_precio & dln\_precio \\
+Efectos fijos & provincia & provincia + año & provincia + año & provincia + año & provincia + año & provincia + año \\
+Errores estándar & cluster provincia & cluster provincia & cluster provincia & cluster provincia & cluster provincia & cluster provincia \\
+Observaciones & 1216 & 1216 & 1166 & 1216 & 1276 & 1116 \\
+Provincias & 52 & 52 & 52 & 52 & 52 & 52 \\
+R² (within si EF) & 0.360 & 0.128 & 0.058 & 0.143 & 0.162 & 0.144 \\
+F primera etapa &  &  &  &  &  &  \\
+\bottomrule
+\end{tabular}

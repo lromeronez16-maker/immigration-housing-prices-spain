@@ -1,0 +1,19 @@
+\begin{tabular}{lllll}
+\toprule
+ & (1) EF misma muestra & (2) 2SLS (flujo extranjeros) & (3) 2SLS (flujo nacidos ext.) & (4) Forma reducida \\
+\midrule
+flujo\_extranjeros & 1.1040*** & 0.4428 &  &  \\
+flujo\_extranjeros (ee) & (0.2433) & (0.4698) &  &  \\
+flujo\_nacidos\_ext &  &  & 0.4712 &  \\
+flujo\_nacidos\_ext (ee) &  &  & (0.4987) &  \\
+iv\_shift\_share &  &  &  & 0.3420 \\
+iv\_shift\_share (ee) &  &  &  & (0.3772) \\
+Variable dependiente & dln\_precio & dln\_precio & dln\_precio & dln\_precio \\
+Efectos fijos & provincia + año & provincia + año & provincia + año & provincia + año \\
+Errores estándar & cluster provincia & cluster provincia & cluster provincia & cluster provincia \\
+Observaciones & 1216 & 1216 & 1216 & 1216 \\
+Provincias & 52 & 52 & 52 & 52 \\
+R² (within si EF) & 0.129 & 0.836 & 0.836 & 0.031 \\
+F primera etapa &  & 48.59 & 47.78 &  \\
+\bottomrule
+\end{tabular}

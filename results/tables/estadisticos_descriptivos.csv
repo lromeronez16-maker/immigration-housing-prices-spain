@@ -1,0 +1,7 @@
+,descripcion,count,mean,std,min,25%,50%,75%,max,missing
+precio_m2,Precio vivienda (€/m²),1276.0,1233.065,508.048,392.6,863.038,1147.962,1488.869,3045.6,24
+dln_precio,Δ ln precio (×100),1216.0,3.107,7.453,-18.661,-1.793,1.972,8.629,25.42,84
+pct_nacidos_ext,% nacidos en el extranjero,1300.0,9.542,6.132,0.456,4.624,8.152,13.451,26.069,0
+pct_extranjeros,% extranjeros,1300.0,7.508,5.542,0.217,3.196,6.032,11.558,24.312,0
+flujo_nacidos_ext,Flujo nacidos ext. (% pob. t-1),1248.0,0.509,0.806,-4.02,0.061,0.327,0.816,5.632,52
+flujo_extranjeros,Flujo extranjeros (% pob. t-1),1248.0,0.413,0.856,-4.386,0.003,0.248,0.72,5.895,52

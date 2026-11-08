@@ -1,0 +1,25 @@
+{
+  "wald_controles": {
+    "variables": [],
+    "stat": NaN,
+    "df": 0,
+    "pvalue": NaN
+  },
+  "wald_retardos_flujo": {
+    "variables": [
+      "flujo_nacidos_ext",
+      "flujo_nacidos_ext_l1",
+      "flujo_nacidos_ext_l2"
+    ],
+    "stat": 34.177163033930405,
+    "df": 3,
+    "pvalue": 1.817701974154709e-07
+  },
+  "efecto_acumulado_0_2": {
+    "efecto_acumulado": 1.1445239987727456,
+    "se": 0.3648337769341298,
+    "p": 0.0017062160777265856,
+    "ci_low": 0.4294497959818512,
+    "ci_high": 1.85959820156364
+  }
+}

@@ -11,7 +11,7 @@
 
 ---
 
-## Executive summary
+## Introduction
 
 Since the early 2000s, Spain has gone through two major immigration waves and two cycles of sharp housing price increases. The timing alone does not prove a causal link. Immigrants choose where to settle, and they tend to go where jobs are, which is also where housing demand rises for other reasons.
 

@@ -11,7 +11,7 @@
 
 ---
 
-## Resumen ejecutivo
+## Introducción
 
 Entre comienzos de los años 2000 y la actualidad, España ha vivido dos grandes oleadas de inmigración y dos ciclos de fuerte subida del precio de la vivienda. La coincidencia temporal no demuestra una relación causal. Los inmigrantes eligen dónde instalarse, y suelen hacerlo donde hay empleo, que es también donde sube la demanda de vivienda por otros motivos.
 

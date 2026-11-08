@@ -1,5 +1,5 @@
 # El impacto de la inmigración en los precios de la vivienda en España
-### Un análisis econométrico territorial y temporal.
+### Un análisis econométrico territorial y temporal
 
 🌐 [English](README.md) · **Español**
 

@@ -108,16 +108,14 @@ que combina el peso inicial de cada nacionalidad en la provincia con su crecimie
 | `results/tables/tabla_4_robustez.*` | Comparación de especificaciones |
 | `results/reports/resumen_resultados.md` | Informe generado solo a partir de las estimaciones |
 
-## Limitaciones
+## Conclusiones principales
 
-- **Sin controles económicos en esta versión** (renta, paro, estructura de edad, densidad, construcción). Los efectos fijos de año absorben el ciclo común, pero no los *shocks* económicos específicos de cada provincia.
-- El valor tasado no es un precio de transacción, y los precios son nominales. El MIVAU no publica algunos trimestres de provincias pequeñas (10 provincia-año excluidos).
-- Los flujos son netos y proceden del Padrón, que tiene depuraciones y cambios metodológicos.
-- La tasa de paro solo está disponible por CCAA en Eurostat.
-- La escala provincial puede ocultar efectos dentro de la provincia.
-- 52 clusters: inferencia moderadamente fiable.
-- El IV depende de supuestos no contrastables directamente.
-- La versión municipal no está implementada.
+1. **Existe una asociación positiva y estable.** En las provincias y años en que llega más población nacida en el extranjero, el precio de la vivienda crece más: unos 1,20 puntos porcentuales por cada flujo equivalente al 1 % de la población, una magnitud similar a la encontrada por Saiz (2007) en EE. UU.
+2. **La relación bruta exagera el vínculo.** Sin efectos fijos el coeficiente es 5,49; la mayor parte de la coincidencia entre inmigración y precios se explica por el ciclo económico nacional común a todas las provincias.
+3. **El resultado no depende de cómo se mida la inmigración.** Es similar con nacidos en el extranjero o con extranjeros, y con flujos o con la variación de la proporción sobre la población total.
+4. **Depende de la fase del ciclo.** La asociación es débil en el *boom* hasta 2007, desaparece en la crisis de 2008-2013 y es más intensa en la recuperación desde 2014.
+5. **No se puede afirmar que sea causal.** Al instrumentar con la red histórica de compatriotas, el efecto baja a 0,47 y deja de ser significativo. Parte de la asociación podría deberse a que los inmigrantes se dirigen a provincias donde la demanda ya estaba creciendo.
+6. **Siguiente paso.** Incorporar controles económicos (renta, paro, construcción) y repetir el análisis a escala municipal para comprobar si el resultado se mantiene.
 
 ## Estructura del repositorio
 

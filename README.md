@@ -118,16 +118,14 @@ which combines each nationality's initial share in the province with its nationa
 
 Tables, figures and the automatic report are in Spanish.
 
-## Limitations
+## Main conclusions
 
-- **No economic controls in this version** (income, unemployment, age structure, density, construction). Year fixed effects absorb the common cycle, but not province-specific economic shocks.
-- Appraised value is not a transaction price, and prices are nominal. MIVAU does not publish some quarters for small provinces (10 province-years excluded).
-- Flows are net and come from the Municipal Register, which has periodic clean-ups and methodological changes.
-- In Eurostat, the unemployment rate is only available by region (CCAA).
-- The provincial level may hide effects within provinces.
-- 52 clusters: inference is only moderately reliable.
-- The IV relies on assumptions that cannot be tested directly.
-- The municipal-level version is not implemented.
+1. **There is a positive and stable association.** In provinces and years with larger inflows of foreign-born residents, housing prices grow faster: about 1.20 percentage points for each inflow equal to 1% of the population, a magnitude similar to that found by Saiz (2007) for the US.
+2. **The raw relationship overstates the link.** Without fixed effects the coefficient is 5.49; most of the co-movement between immigration and prices is explained by the national economic cycle shared by all provinces.
+3. **The result does not depend on how immigration is measured.** It is similar for the foreign-born and for foreign nationals, and for flows or for the change in their share of the total population.
+4. **It depends on the phase of the cycle.** The association is weak during the boom up to 2007, disappears in the 2008-2013 crisis and is stronger during the recovery since 2014.
+5. **It cannot be claimed to be causal.** When instrumented with historical networks of compatriots, the effect falls to 0.47 and is no longer significant. Part of the association may reflect immigrants moving to provinces where demand was already rising.
+6. **Next step.** Add economic controls (income, unemployment, construction) and repeat the analysis at the municipal level to check whether the result holds.
 
 ## Repository structure
 

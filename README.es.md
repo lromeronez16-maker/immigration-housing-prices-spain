@@ -42,15 +42,15 @@ Detalle teórico, mecanismos y efectos contrapuestos: [`docs/methodology.md`](do
 
 ## Datos
 
-| Concepto | Variable | Fuente | Escala |
-|---|---|---|---|
-| Precio de la vivienda | Valor tasado vivienda libre (€/m²) | MIVAU | Provincia, trimestral |
-| Población nacida en el extranjero | Stock a 1 de enero | INE, Padrón Continuo | Provincia |
-| Población extranjera (por nacionalidad) | Stock a 1 de enero | INE, Padrón Continuo | Provincia |
-| PIB, población, estructura por edades, superficie | | Eurostat | NUTS-3 → provincia |
-| Tasa de paro | | Eurostat (EPA) | CCAA |
-| Tipo de interés a 10 años | | Eurostat | España |
-| Viviendas terminadas | | MIVAU | Provincia |
+| Concepto | Variable | Fuente | Escala | En esta versión |
+|---|---|---|---|---|
+| Precio de la vivienda | Valor tasado medio de la vivienda libre (€/m², nominal); variable dependiente: 100·Δln precio | MIVAU (VDP006_01) | Provincia, trimestral → anual | ✅ Usada |
+| Población nacida en el extranjero | Stock a 1 de enero → % sobre población total, flujo neto (% de la población del año anterior) y Δ % (p.p.) | INE, Padrón Continuo (tabla 03006) | Provincia, anual | ✅ Usada |
+| Población extranjera (por nacionalidad) | Stock a 1 de enero → % extranjeros, flujo neto y cuotas por nacionalidad para el instrumento | INE, Padrón Continuo (tabla 03005) | Provincia, anual | ✅ Usada |
+| PIB, población, estructura por edades, superficie | PIB a precios corrientes (M€) → ln PIB per cápita y su crecimiento; % de población de 25-34 años; ln densidad (hab./km²) | Eurostat (`nama_10r_3gdp`, `demo_r_pjangrp3`, `demo_r_d3area`) | NUTS-3 → provincia, anual | ⏳ Pendiente |
+| Tasa de paro | % de la población activa de 15-74 años y su variación (p.p.) | Eurostat, EPA (`lfst_r_lfu3rt`) | CCAA, anual | ⏳ Pendiente |
+| Tipo de interés a 10 años | Rendimiento de la deuda pública a 10 años (%, media anual) | Eurostat (`irt_lt_mcby_a`) | España, anual | ⏳ Pendiente (solo MCO; en panel lo absorben los EF de año) |
+| Viviendas terminadas | Viviendas libres terminadas por 1.000 habitantes, retardadas un año (t−1) | MIVAU | Provincia, anual | ⏳ Pendiente |
 
 Se distingue explícitamente entre **población nacida en el extranjero**, **población extranjera** (nacionalidad) y **flujos netos**: ver [`docs/methodology.md` §4](docs/methodology.md#4-definiciones-no-son-categorías-equivalentes). Las fuentes, las rutas de descarga y los datos no disponibles están en [`docs/data_sources.md`](docs/data_sources.md).
 

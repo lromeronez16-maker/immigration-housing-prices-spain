@@ -1,5 +1,5 @@
 # The Impact of Immigration on Housing Prices in Spain
-### A territorial and temporal econometric analysis (provincial panel)
+### A territorial and temporal econometric analysis
 
 🌐 **English** · [Español](README.es.md)
 
@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-> **Project status:** estimated with official data from INE (Municipal Register, tables 03005 and 03006) and MIVAU (appraised housing values, VDP006_01) for **52 provinces, 1997-2021**. **No economic controls yet** (GDP, unemployment, age structure and density from Eurostat): the code downloads them, but this run was made without them. The results below should be read with that limitation in mind.
+> **Project status:** estimated with official data from INE (Municipal Register, tables 03005 and 03006) and MIVAU (appraised housing values, VDP006_01) for **52 provinces, 1997-2021**.
 
 ---
 

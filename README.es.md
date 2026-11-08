@@ -169,6 +169,12 @@ Para comprobar que todo el código funciona sin datos reales: `python -m src.run
 
 Lista completa: [`docs/literature_review.md`](docs/literature_review.md).
 
+## Sobre el autor
+
+**Lorenzo** · Estudiante de cuarto curso de Administración y Dirección de Empresas (ADE) en la Universidad de Castilla-La Mancha (Ciudad Real).
+
+Me estoy especializando en análisis de datos y métodos cuantitativos, dentro de la intensificación en Economía y Métodos Cuantitativos, y quiero continuar con un máster en modelización y análisis de datos económicos. Este proyecto forma parte de mi portfolio: construir un panel con datos oficiales, armonizar fuentes distintas y estimar modelos econométricos de forma reproducible en Python.
+
 ## Licencia
 
 Código bajo licencia MIT. Los datos pertenecen a sus organismos productores y se rigen por sus condiciones de reutilización.

@@ -182,6 +182,12 @@ The converted official data are already in `data/raw/manual/`, so the last comma
 
 Full list: [`docs/literature_review.md`](docs/literature_review.md).
 
+## About the author
+
+**Lorenzo** · Fourth-year Business Administration (ADE) student at the University of Castilla-La Mancha (Ciudad Real, Spain).
+
+I am specialising in data analysis and quantitative methods, within the Economics and Quantitative Methods track, and plan to continue with a master's degree in economic data modelling and analysis. This project is part of my portfolio: building a panel from official data, harmonising different sources and estimating econometric models reproducibly in Python.
+
 ## License
 
 Code released under the MIT License. The data belong to the agencies that produce them and are subject to their reuse terms.

@@ -290,14 +290,22 @@ footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--rule);font-si
 <div class="pair">{{FIG05}}{{FIG06}}</div>
 <div class="pair">{{FIG02}}{{FIG03}}</div>
 
-<h2>Limitaciones</h2>
-<ul class="prose">
-<li><strong>Sin controles económicos en esta versión</strong> (renta, paro, estructura de edad, densidad, construcción).</li>
-<li>El valor tasado no es un precio de transacción, y los precios son nominales. El MIVAU no publica algunos trimestres de provincias pequeñas (10 provincia-año excluidos).</li>
-<li>Los flujos son netos y proceden del Padrón, con depuraciones y cambios metodológicos.</li>
-<li>La escala provincial puede ocultar efectos dentro de cada provincia; con 52 clusters la inferencia es solo moderadamente fiable.</li>
-<li>El IV depende de supuestos no contrastables directamente. La versión municipal no está implementada.</li>
-</ul>
+<h2>Conclusiones principales</h2>
+<ol class="findings prose">
+<li><strong>Existe una asociación positiva y estable.</strong> En las provincias y años en que llega más población nacida en el extranjero, el precio de la vivienda crece más: unos {{MAIN}} puntos porcentuales por cada flujo equivalente al 1 % de la población, una magnitud similar a la encontrada por Saiz (2007) en EE. UU.</li>
+<li><strong>La relación bruta exagera el vínculo.</strong> Sin efectos fijos el coeficiente es {{POOLED}}; la mayor parte de la coincidencia entre inmigración y precios se explica por el ciclo económico nacional común a todas las provincias.</li>
+<li><strong>El resultado no depende de cómo se mida la inmigración.</strong> Es similar con nacidos en el extranjero o con extranjeros, y con flujos o con la variación de la proporción sobre la población total.</li>
+<li><strong>Depende de la fase del ciclo.</strong> La asociación es débil en el <em>boom</em> hasta 2007, desaparece en la crisis de 2008-2013 y es más intensa en la recuperación desde 2014.</li>
+<li><strong>No se puede afirmar que sea causal.</strong> Al instrumentar con la red histórica de compatriotas, el efecto baja a {{IV}} y deja de ser significativo. Parte de la asociación podría deberse a que los inmigrantes se dirigen a provincias donde la demanda ya estaba creciendo.</li>
+<li><strong>Siguiente paso.</strong> Incorporar controles económicos (renta, paro, construcción) y repetir el análisis a escala municipal para comprobar si el resultado se mantiene.</li>
+</ol>
+
+<h2>Sobre el autor</h2>
+<div class="prose">
+<p><strong>Lorenzo</strong> · Estudiante de cuarto curso de Administración y Dirección de Empresas (ADE) en la Universidad de Castilla-La Mancha (Ciudad Real).</p>
+<p>Me estoy especializando en análisis de datos y métodos cuantitativos, dentro de la intensificación en Economía y Métodos Cuantitativos, y quiero continuar con un máster en modelización y análisis de datos económicos. Este proyecto forma parte de mi portfolio: construir un panel con datos oficiales, armonizar fuentes distintas y estimar modelos econométricos de forma reproducible en Python.</p>
+<p>Busco prácticas en el área económico-financiera o de análisis de datos. Más proyectos en <a href="https://github.com/lromeronez16-maker">github.com/lromeronez16-maker</a>.</p>
+</div>
 
 <h2>Reproducción</h2>
 <pre>git clone https://github.com/lromeronez16-maker/inmigracion-precio-vivienda-espana.git

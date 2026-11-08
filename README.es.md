@@ -1,5 +1,5 @@
 # El impacto de la inmigración en los precios de la vivienda en España
-### Un análisis econométrico territorial y temporal (panel provincial)
+### Un análisis econométrico territorial y temporal.
 
 🌐 [English](README.md) · **Español**
 
@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
 
-> **Estado del proyecto:** estimado con datos oficiales del INE (Padrón, tablas 03005 y 03006) y del MIVAU (valor tasado, VDP006_01) para **52 provincias, 1997-2021**. **Aún sin controles económicos** (PIB, paro, edad y densidad de Eurostat): el código los descarga, pero esta ejecución se hizo sin ellos. Los resultados de abajo deben leerse con esa limitación.
+> **Estado del proyecto:** estimado con datos oficiales del INE (Padrón, tablas 03005 y 03006) y del MIVAU (valor tasado, VDP006_01) para **52 provincias, 1997-2021**. 
 
 ---
 
